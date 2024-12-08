@@ -1,11 +1,11 @@
 import os
 import markdown
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import google.generativeai as genai
 
 
-load_dotenv()
+# load_dotenv()
 API_KEY = os.getenv("GOOGLE_GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
 
