@@ -1,4 +1,4 @@
 python-dotenv
 google.generativeai
-python3 -m venv .venv  
-pip install markdown
+python3 
+markdown
